@@ -34,6 +34,9 @@ int main()
  third->next = NULL;
 
  transverse(head);
+ free(head);
+ free(second);
+ free(third);
 return 0;
 }
 
